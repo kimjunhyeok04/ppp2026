@@ -1,0 +1,8 @@
+Hanrabong = input("한라봉 몇 그람 섭취하셨나요?")
+Hanrabong = int(Hanrabong)
+Ddalgi = input("딸기를 몇 그람 섭취하셨나요?")
+Ddalgi = int(Ddalgi)
+Banana = input("바나나 몇 그람 섭취하셨나요?")
+Banana = int(Banana)
+kcal = (Hanrabong / 100 * 50 ) + (Ddalgi / 100 * 34 ) + (Banana / 100 *77)
+print(f"총 섭취한 칼로리는 {kcal}KCAl입니다")
