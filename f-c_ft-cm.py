@@ -16,10 +16,12 @@ elif choice == 3:
     height_ft = int(height_ft)
     height_cm = height_ft *30.28
     print("{:.1f}CM입니다".format(height_cm))
-elif choice == 1:
+elif choice == 4:
     height_cm = float(input("피트길이를 입력하시오."))
     height_cm = int(height_cm)
     height_ft = height_cm * 30.28
     print("{:.1f}FT입니다".format(height_ft))
 else :
     print("선택하신 번호는 잘 못 되었습니다")
+
+
